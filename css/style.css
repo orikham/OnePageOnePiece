@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*...................................................logo.et.video.de.fond....................................................................*/
+
+
+
+#logo{
+    text-align: center;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+}
+
+
+/*....................................................debut.menus..........................................................................*/
+
+#menu {
+    max-width: 1200px;
+    margin: auto;
+    background-color: grey;
+}
+
+#menu>ul {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#menu>ul>.onglet {
+    width: 200px;
+    height: 100%;
+
+}
+
+.onglet>a {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.deroulement {
+    width: 200px;
+    height: 110px;
+    text-align: center;
+    list-style-type: none;
+    display: none;
+    
+}
+
+.deroulement>li {
+    margin-top: 10px;
+    width: 200px;
+    border: 1px solid black;
+    
+    
+}
+
+.deroulement>li>a {
+    text-decoration: none;
+
+}
+
+#menu>ul>li:hover>ul {
+    display: block;
+    position: fixed;
+}
+
+
+/*..................................................................debut.contenu................................................................*/
+
+#contenu{
+    width: 750px;
+    margin-top: 125px;
+    margin-right: 20%;
+    float: right;
+}
+#histoire{
+    width: 750px;
+    height: 390px;
+    border: 1px solid black;
+}
+
+#histoire > p{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left:75px;
+    margin-top: -375px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
+
+#personnages{
+    width: 750px;
+    margin-top: 50px;
+    border: 1px solid black;
+    display: flex;
+}
+#wanted{
+    
+}
+
+#article{
+    
+}
+
+#lieux{
+    width: 750px;
+    margin-top: 50px;
+}
+
+#goa{
+    float: right;
+}
+
+#evenement{
+    width: 750px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+}
+
+#banniere{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#banniere > form{
+    margin-bottom:10px ;
+}
+
+#banniere > img{
+    margin-top: 10px;
+}
+
+#mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+/*................................................................debut.slide.iframe.................................................................*/
+
+#recettes{
+    position: fixed;
+    width: 150px;
+    height: 290px;
+    float: left;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+#recettes > iframe{
+    margin-top: 5px;
+}
+
+
+/*............................................footer..........................................*/
+
+#footer{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate(60%, 50%);
+    
+}
+
+
+#footer h4{
+    padding: 5px 5px 5px 8px;
+    text-align: center;
+}
+
+#lien{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+
+#suivi{
+}
+
+#image-suivi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+#partenaire{
+    margin-top: 30px;
+}
+
+#image-partenaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contact{
+    
+}
+
+#contact > form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    padding: 5px;   
+    
+    
+}

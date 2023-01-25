@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "JackPirate" ;
+    src: url("./JackPirate_PERSONAL_USE_ONLY.ttf") format("truetype");
+    src: url("./JackPirateAlt_PERSONAL_USE_ONLY.ttf") format("truetype");
+}
+@font-face{
+    font-family: "caribbean";
+    src: url("./Caribbean/Caribbean.ttf") format("truetype");
+}
+
+
+
+#menu, h1, h2, h3, h4{
+    font-family: "Caribbean", sans-serif;
+}
+
+p{
+    font-family: "JackPirate", sans-serif;
+}
