@@ -89,14 +89,18 @@
 
 #contenu{
     width: 750px;
-    margin-top: 125px;
-    margin-right: 20%;
-    float: right;
+    height:400px;
+    transform: translate(50%, 10%);
+    
+    
+    
 }
 #histoire{
     width: 750px;
     height: 390px;
     border: 1px solid black;
+    
+    
 }
 
 #histoire > p{
@@ -165,35 +169,59 @@
 }
 /*................................................................debut.slide.iframe.................................................................*/
 
-#recettes{
-    position: fixed;
+#slider{
     width: 150px;
-    height: 290px;
-    float: left;
+    position: fixed;
+    transform: translate(30%, -70%);
+}
+
+#top-arrow{
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .5s ease;
+    
+}
+
+#bottom-arrow{
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#recettes{
+    width: 150px;
+    height: 300px;
     overflow: hidden;
-    margin-top: 100px;
-    margin-left: 150px;
     display: flex;
     flex-direction: column;
+    transition: all .5s ease-in-out;
     border-radius: 10px;
     border: 1px solid black;
-    z-index: -1;
+    
 }
 
 #recettes > iframe{
+    width: 150px;
+    height: 80px;
     margin-top: 5px;
+
 }
-
-
 /*............................................footer..........................................*/
 
 #footer{
+
     width: 800px;
     height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    transform: translate(60%, 50%);
+    transform: translate(50%, 800%);
     
 }
 

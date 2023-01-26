@@ -21,24 +21,77 @@
 
 /*................................................................debut.slide.iframe.................................................................*/
 
-/*#recettes{
-    position: fixed;
+
+
+#slider{
     width: 150px;
-    height: 278px;
-    float: left;
+    position: fixed;
+    transform: translate(30%, -90%);
+}
+
+#top-arrow{
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .5s ease;
+    
+}
+
+#bottom-arrow{
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+#recettes{
+    width: 150px;
+    height: 300px;
     overflow: hidden;
-    margin-top: 50px;
-    margin-left: 150px;
     display: flex;
     flex-direction: column;
+    transition: all .5s ease-in-out;
     border-radius: 10px;
     border: 1px solid black;
     
 }
 
 #recettes > iframe{
+    width: 150px;
+    height: 80;
     margin-top: 5px;
-}*/
+}
+
+#contenu{
+    width: 750px;
+    height:400px;
+    transform: translate(50%, 10%);
+    
+    
+    
+}
+#histoire{
+    width: 750px;
+    height: 390px;
+    border: 1px solid black;
+    
+    
+}
+
+#histoire > p{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left:75px;
+    margin-top: -375px;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
 
 
 
@@ -47,7 +100,49 @@
 
 
 
-#personnages{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#personnages{
     width: 750px;
     margin-top: 50px;
     border: 1px solid black;
@@ -65,4 +160,4 @@
 
 #article > p{
     
-}
+}*/
