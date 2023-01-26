@@ -82,6 +82,7 @@
 #menu>ul>li:hover>ul {
     display: block;
     position: fixed;
+    z-index: 10000;
 }
 
 
@@ -91,6 +92,7 @@
     width: 750px;
     height:400px;
     transform: translate(50%, 10%);
+    z-index: -1;
     
     
     
@@ -125,12 +127,22 @@
 }
 
 #article{
+    height: 500px;
+    padding: 5px 0px 20px 5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
+}
+
+#article > p{
+    font-size: 1.3em;
 }
 
 #lieux{
     width: 750px;
     margin-top: 50px;
+    border: 1px solid black;
 }
 
 #goa{
@@ -142,6 +154,8 @@
     margin-top: 50px;
     display: flex;
     flex-direction:row;
+    border: 1px solid black;
+    z-index: 20000;
 }
 
 #banniere{
@@ -194,14 +208,19 @@
     transition: all .5s ease;
 }
 
-#recettes{
-    width: 150px;
+#window-slider{
+    width: 155px;
     height: 300px;
+    border-radius: 10px;
     overflow: hidden;
+}
+
+#recettes{
+    
     display: flex;
     flex-direction: column;
     transition: all .5s ease-in-out;
-    border-radius: 10px;
+    
     border: 1px solid black;
     
 }
