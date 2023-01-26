@@ -5,10 +5,11 @@ let transition = 0;
 
 
 topArrow.addEventListener('click', function(){
-    if(transition - 80 >= 2000){
+
+    if(transition - 80 <= 2000){
         transition -= 80;
 
-    recettes.style.marginTop = transition + 'px';
+    recettes.style.top = transition + 'px';
 
 
     
@@ -16,7 +17,7 @@ topArrow.addEventListener('click', function(){
 });
 
 bottomArrow.addEventListener('click', function(){
-    if(transition + 80 <= 2000){
+    if(transition + 80 >= 2000){
         transition += 80;
 
     recettes.style.marginTop = transition + 'px';
